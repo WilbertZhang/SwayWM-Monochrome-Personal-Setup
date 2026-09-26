@@ -8,7 +8,7 @@ This is a fork of a Rice I really liked so I wanted to customize it for my perso
 - wofi
 - fastfetch
 - cava
-- Cmatrix (no config file — styled via CLI flag only, see Notes)
+- Cmatrix (its color is set only via the CLI flag in the exec line (-C white); it doesn't accept hex colors)
 - btop
 - gtklock (lock screen, styled to match the rest of the rice)
 
