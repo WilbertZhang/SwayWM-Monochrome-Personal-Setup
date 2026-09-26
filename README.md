@@ -61,5 +61,3 @@ This is just another of the fun repos i made for SwayWM, hope you enjoy it.
 - Screenshots save to `~/Pictures/screenshot_<timestamp>.png` — make sure
   `~/Pictures` exists.
 - Distro this was built/tested on: Fedora Sway Spin (official).
-
-# --- MESSAGE: Terminal active. Like a light in the storm. ---
