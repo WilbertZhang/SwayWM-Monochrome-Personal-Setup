@@ -105,3 +105,22 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - Uninstall firefox `sudo dnf remove firefox`
 - Uninstall Sway Lock `sudo dnf remove swaylock`
 - Uninstall rofi `sudo dnf remove rofi`
+- Install Alacritty `sudo dnf install alacritty`
+- Install Dunst `sudo dnf install dunst`
+- Install Sway `sudo dnf install sway`
+- Install Waybar `sudo dnf install waybar`
+- Install Wofi `sudo dnf install wofi`
+- Install GTKLock `sudo dnf install gtklock`
+- Install Fastfetch `sudo dnf install fastfetch`
+- Install Cava `sudo dnf install cava`
+- Install Cmatrix `sudo dnf install cmatrix`
+- Install Btop `sudo dnf install btop`
+- Install JetBrainsMono Nerd Font `sudo dnf install nerdfonts`
+- Install Swayidle `sudo dnf install swayidle`
+- Install Grim `sudo dnf install grim`
+- Install Slurp `sudo dnf install slurp`
+- Install Brightnessctl `sudo dnf install brightnessctl`
+- Install Wireplumber `sudo dnf install wireplumber`
+- Install NetworkManager `sudo dnf install NetworkManager`
+- Install Blueman `sudo dnf install blueman`
+- Install Power-profiles-daemon `sudo dnf install power-profiles-daemon`
