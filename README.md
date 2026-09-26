@@ -1,4 +1,4 @@
-This is just another of the fun repos i made for SwayWM, hope you enjoy it.
+This is a fork of a Rice I really liked so I wanted to customize it for my personal use you are free to use this however you want
 
 ## Included configs
 - alacritty
