@@ -8,10 +8,10 @@
     "spacing": 10,
     "modules-left": ["custom/launcher", "sway/workspaces", "sway/mode"],
     "modules-center": ["clock"],
-    "modules-right": ["cpu", "memory", "pulseaudio", "battery", "tray"],
+    "modules-right": ["cpu", "memory", "network", "bluetooth", "power-profiles-daemon", "pulseaudio", "battery", "tray"],
 
     "custom/launcher": {
-        "format": "  ",
+        "format": "  ",
         "on-click": "wofi --show drun",
         "tooltip": false
     },
@@ -20,20 +20,44 @@
         "all-outputs": true,
         "format": "{icon}",
         "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "default": ""
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "default": ""
         }
     },
     "clock": {
-        "format": "  {:%H:%M}",
+        "format": "  {:%H:%M}",
         "format-alt": "󰃭  {:%A, %B %d}",
         "tooltip": false
     },
-    "cpu": { "format": "  {usage}%" },
-    "memory": { "format": "  {}%" },
+    "cpu": { "format": "  {usage}%" },
+    "memory": { "format": "  {}%" },
+    "network": {
+        "format-wifi": "  {signalStrength}%",
+        "format-ethernet": "󰈀 Wired",
+        "format-disconnected": "󰤮 Off",
+        "tooltip-format": "{ifname}: {ipaddr}",
+        "on-click": "nm-connection-editor"
+    },
+    "bluetooth": {
+        "format": "",
+        "format-disabled": "",
+        "format-connected": " {num_connections}",
+        "tooltip-format": "{controller_alias}",
+        "on-click": "blueman-manager"
+    },
+    "power-profiles-daemon": {
+        "format": "{icon}",
+        "tooltip-format": "Profile: {profile}",
+        "format-icons": {
+            "default": "",
+            "performance": "",
+            "balanced": "",
+            "power-saver": ""
+        }
+    },
     "pulseaudio": {
         "format": "{icon} {volume}%",
         "format-muted": "󰝟",
