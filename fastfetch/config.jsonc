@@ -1,0 +1,66 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "small",
+        "padding": {
+            "top": 2,
+            "left": 2
+        }
+    },
+    "display": {
+        "separator": " 󰇙 ",
+        "color": {
+            "keys": "3", // Color gris acento (#9a938d)
+            "title": "2" // Color carbón (#2d2926)
+        }
+    },
+    "modules": [
+        "title",
+        {
+            "type": "custom",
+            "format": "──────────────────────────────",
+            "outputColor": "3"
+        },
+        {
+            "type": "os",
+            "key": " OS",
+            "keyColor": "3"
+        },
+        {
+            "type": "kernel",
+            "key": "󰒋 Core",
+            "keyColor": "3"
+        },
+        {
+            "type": "uptime",
+            "key": "󰔚 Uptime",
+            "keyColor": "3"
+        },
+        {
+            "type": "wm",
+            "key": "󱂬 Window Manager",
+            "keyColor": "3"
+        },
+        {
+            "type": "terminal",
+            "key": "󰆍 Terminal",
+            "keyColor": "3"
+        },
+        {
+            "type": "memory",
+            "key": "󰘚 Memory",
+            "keyColor": "3"
+        },
+        "break",
+        {
+            "type": "colors",
+            "symbol": "circle"
+        },
+        "break",
+        {
+            "type": "custom",
+            "format": "I love my wife <3",
+        },
+        "break"
+    ]
+}
