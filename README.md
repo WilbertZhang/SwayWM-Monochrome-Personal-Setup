@@ -2,7 +2,6 @@ This is just another of the fun repos i made for SwayWM, hope you enjoy it.
 
 dependencies:
 - Sway
-- 
 - Waybar
 - Wofi
 - Alacritty
