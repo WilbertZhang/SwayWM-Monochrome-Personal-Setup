@@ -1,0 +1,61 @@
+# --- MONOCHROME THEME: matches waybar/alacritty/wofi/dunst palette ---
+# Repo path: btop/themes/monochrome.theme
+# Install to: ~/.config/btop/themes/monochrome.theme
+# Referenced by btop.conf as: color_theme = "monochrome"
+#
+# NOTE (uncertainty flag): key names below follow btop's documented theme
+# format as of common 1.x releases. If your installed btop version rejects
+# any key, compare against /usr/share/btop/themes/default.theme on your
+# system after install and adjust key names to match — theme keys have
+# shifted slightly across btop versions.
+
+theme[main_bg]="#000000"
+theme[main_fg]="#e0e0e0"
+theme[title]="#ffffff"
+theme[hi_fg]="#ffffff"
+theme[selected_bg]="#4a4e52"
+theme[selected_fg]="#ffffff"
+theme[inactive_fg]="#444444"
+theme[graph_text]="#e0e0e0"
+theme[meter_bg]="#1c1c1c"
+theme[proc_misc]="#c6c6c6"
+
+theme[cpu_box]="#4a4e52"
+theme[mem_box]="#4a4e52"
+theme[net_box]="#4a4e52"
+theme[proc_box]="#4a4e52"
+theme[div_line]="#4a4e52"
+
+theme[temp_start]="#acacac"
+theme[temp_mid]="#c6c6c6"
+theme[temp_end]="#f7768e"
+
+theme[cpu_start]="#767676"
+theme[cpu_mid]="#acacac"
+theme[cpu_end]="#eeeeee"
+
+theme[free_start]="#444444"
+theme[free_mid]="#767676"
+theme[free_end]="#eeeeee"
+
+theme[cached_start]="#444444"
+theme[cached_mid]="#8a8a8a"
+theme[cached_end]="#dadada"
+
+theme[available_start]="#444444"
+theme[available_mid]="#949494"
+theme[available_end]="#eeeeee"
+
+theme[used_start]="#444444"
+theme[used_mid]="#acacac"
+theme[used_end]="#ffffff"
+
+theme[download_start]="#767676"
+theme[download_mid]="#acacac"
+theme[download_end]="#eeeeee"
+
+theme[upload_start]="#767676"
+theme[upload_mid]="#acacac"
+theme[upload_end]="#eeeeee"
+
+# --- MESSAGE: Every process, a shade of the same storm. ---

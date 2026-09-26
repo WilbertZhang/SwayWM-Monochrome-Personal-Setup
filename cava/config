@@ -1,0 +1,32 @@
+### --- CAVA CONFIG: matches another-monochrome-sway rice --- ###
+### Repo path: cava/config  ->  install to: ~/.config/cava/config
+
+[general]
+bars = 0
+autosens = 1
+sensitivity = 100
+framerate = 60
+
+[input]
+method = pulse
+source = auto
+
+[output]
+method = ncurses
+channels = mono
+
+[color]
+gradient = 1
+gradient_count = 3
+gradient_color_1 = '#444444'
+gradient_color_2 = '#acacac'
+gradient_color_3 = '#ffffff'
+background = '#000000'
+foreground = '#e0e0e0'
+
+[smoothing]
+noise_reduction = 60
+monstercat = 1
+waves = 0
+
+# --- MESSAGE: Sound made visible, gray on black. ---
