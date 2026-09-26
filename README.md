@@ -99,3 +99,6 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - Distro this was built/tested on: Fedora Sway Spin (official).
 - I used AI in a lot of these files.
 - Anyone is free to redistribute, modify, and monetize this project.
+
+## Personal Notes
+- Uninstall Foot Terminal Emulator `sudo dnf remove foot`
