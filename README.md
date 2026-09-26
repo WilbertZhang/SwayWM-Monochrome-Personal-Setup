@@ -102,3 +102,6 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 
 ## Personal Notes
 - Uninstall Foot Terminal Emulator `sudo dnf remove foot`
+- Uninstall firefox `sudo dnf remove firefox`
+- Uninstall Sway Lock `sudo dnf remove swaylock`
+- Uninstall rofi `sudo dnf remove rofi`
