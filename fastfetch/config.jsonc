@@ -10,8 +10,8 @@
     "display": {
         "separator": " 󰇙 ",
         "color": {
-            "keys": "3", // Color gris acento (#9a938d)
-            "title": "2" // Color carbón (#2d2926)
+            "keys": "3", // Color gris acento (#949494, alacritty.normal.yellow)
+            "title": "2" // Color carbón (#767676, alacritty.normal.green)
         }
     },
     "modules": [
@@ -59,7 +59,7 @@
         "break",
         {
             "type": "custom",
-            "format": "Love the Earth <3",
+            "format": "Love the Earth <3"
         },
         "break"
     ]
