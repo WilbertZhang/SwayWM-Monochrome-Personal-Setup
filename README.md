@@ -8,11 +8,12 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - sway
 - waybar
 - wofi
+### Terminal Visuals
+- gtklock (lock screen, styled to match the rest of the rice)
 - fastfetch
 - cava
 - Cmatrix (its color is set only via the CLI flag in the exec line (`-C white`); it doesn't accept hex colors)
 - btop
-- gtklock (lock screen, styled to match the rest of the rice)
 
 ## Dependencies
 
@@ -22,6 +23,7 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - wofi
 - alacritty
 - dunst
+- gtklock (lock screen, styled to match the rest of the rice)
 - JetBrainsMono Nerd Font
 
 ### Required for keybinds/modules already in these configs
