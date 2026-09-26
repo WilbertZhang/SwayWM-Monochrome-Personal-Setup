@@ -5,6 +5,7 @@ dependencies:
 - Waybar
 - Wofi
 - Alacritty
+- dunst
 - JetBrainsMono Nerd Font
 
 install:
