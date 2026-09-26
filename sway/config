@@ -114,6 +114,6 @@ bar {
 include /etc/sway/config.d/*
 
 ### Screenshot
-bindsym $mod+Shift+S exec grim -g "$(slurp)" /home/tuxedochan/Pictures/screenshot_$(date +%Y%m%d_%H%M%S).png
+bindsym $mod+Shift+S exec grim -g "$(slurp)" $HOME/Pictures/screenshot_$(date +%Y%m%d_%H%M%S).png
 
 seat seat0 xcursor_theme Future-dark-cursors 30
