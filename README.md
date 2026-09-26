@@ -34,7 +34,7 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - blueman — waybar bluetooth module click
 - power-profiles-daemon — waybar power-profile module
 
-### Required for the system-info/eyecandy windows
+### Required for the system-info
 - fastfetch — system info, configured in `fastfetch/config.jsonc`, also
   wired to print on every new shell (see `shell/bashrc-fastfetch-snippet.sh`)
 - btop — resource monitor, themed via `btop/themes/monochrome.theme`
