@@ -28,7 +28,8 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 
 ### Required for keybinds/modules already in these configs
 - swayidle — idle handling / auto-lock (see `sway/sway-idle-lock-snippet.conf`)
-- gtklock — lock screen (see `gtklock/`)
+- gtklock — lock screen (`sudo dnf copr enable wef/gtklock`
+   `sudo dnf install gtklock`)
 - grim + slurp — screenshot bind (`$mod+Shift+S`)
 - brightnessctl — brightness keys
 - wireplumber (provides `wpctl`) — volume keys
