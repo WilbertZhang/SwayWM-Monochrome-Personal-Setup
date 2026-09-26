@@ -52,6 +52,10 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
   delete that `seat` line to use your system's default cursor theme.
 
 ## Things you MUST edit before first use
+- `sway/config`: the `output * bg ...` line hardcodes
+  `/home/tuxedochan/Downloads/midnight.jpg`. Move `midnight.jpg` (included in
+  this repo) somewhere on your machine and change that path to match, e.g.
+  `~/Pictures/midnight.jpg`.
 - `gtklock/config.ini`: the `style=` line has a `YOURUSER` placeholder.
   Replace it with your actual Linux username.
 
