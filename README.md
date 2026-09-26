@@ -6,6 +6,9 @@ This is a fork of a Rice I really liked so I wanted to customize it for my perso
 - sway
 - waybar
 - wofi
+- fastfetch
+- Cmatrix
+- btop
 - gtklock (lock screen, styled to match the rest of the rice)
 
 ## Dependencies
