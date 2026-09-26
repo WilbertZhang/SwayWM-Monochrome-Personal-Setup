@@ -73,7 +73,6 @@
     always_run_script = true
     title = Dunst
     class = Dunst
-    corner_radius = 12
     ignore_dbusclose = false
 
     ### Mouse ###
