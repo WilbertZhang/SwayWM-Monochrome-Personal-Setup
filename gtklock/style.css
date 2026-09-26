@@ -1,0 +1,17 @@
+window {
+    background-color: #000000;
+}
+
+label {
+    color: #e0e0e0;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+entry {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    border: 1px solid #4a4e52;
+    border-radius: 25px;
+    padding: 8px 20px;
+    min-width: 200px;
+}
