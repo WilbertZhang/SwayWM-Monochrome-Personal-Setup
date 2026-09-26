@@ -14,6 +14,9 @@ window#waybar {
 #clock,
 #cpu,
 #memory,
+#network,
+#bluetooth,
+#power-profiles-daemon,
 #pulseaudio,
 #battery,
 #tray {
