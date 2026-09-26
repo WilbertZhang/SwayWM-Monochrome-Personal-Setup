@@ -1,0 +1,115 @@
+### --- DUNST CONFIG: MATCHES another-monochrome-sway RICE --- ###
+### Palette reference (from waybar/style.css, alacritty.toml, wofi/style.css):
+###   background : #000000
+###   foreground : #ffffff / #e0e0e0
+###   border/accent : #4a4e52
+###   urgent (from sway/config client.urgent) : #f7768e
+###   font : JetBrainsMono Nerd Font
+
+[global]
+    ### Display ###
+    monitor = 0
+    follow = mouse
+
+    ### Geometry ###
+    width = 300
+    height = 300
+    origin = top-right
+    offset = 15x15
+    scale = 0
+    notification_limit = 5
+
+    ### Progress bar ###
+    progress_bar = true
+    progress_bar_height = 10
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    progress_bar_corner_radius = 8
+
+    ### Shape / frame (matches the 12px radius + 1px #4a4e52 border used on waybar modules) ###
+    corner_radius = 12
+    frame_width = 1
+    frame_color = "#4a4e52"
+    separator_color = frame
+    separator_height = 2
+
+    ### Padding (matches wofi's 20px outer / alacritty's 15px window padding) ###
+    padding = 15
+    horizontal_padding = 20
+    text_icon_padding = 10
+
+    ### Transparency (matches alacritty opacity = 0.80 -> ~20% transparent) ###
+    transparency = 20
+
+    ### Text ###
+    font = JetBrainsMono Nerd Font 10
+    line_height = 0
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    vertical_alignment = center
+    show_age_threshold = 60
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = yes
+
+    ### Icons ###
+    enable_recursive_icon_lookup = true
+    icon_theme = "Adwaita"
+    icon_position = left
+    min_icon_size = 0
+    max_icon_size = 48
+
+    ### History ###
+    sticky_history = yes
+    history_length = 20
+
+    ### Misc/Advanced ###
+    dmenu = wofi --dmenu -p "dunst:"
+    browser = xdg-open
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    corner_radius = 12
+    ignore_dbusclose = false
+
+    ### Mouse ###
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+# --- MESSAGE: Silence broken only when it matters. ---
+
+[experimental]
+    per_monitor_dpi = false
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#e0e0e0"
+    frame_color = "#4a4e52"
+    timeout = 5
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#4a4e52"
+    timeout = 8
+
+[urgency_critical]
+    background = "#000000"
+    foreground = "#ffffff"
+    frame_color = "#f7768e"
+    timeout = 0
+
+# --- MESSAGE: Every alert, another wave against the shore. ---
+
+### Example per-app rule (uncomment / duplicate to customize further) ###
+# [spotify]
+#     appname = Spotify
+#     format = "🎵 %s\n%b"
+#     background = "#000000"
+#     foreground = "#e0e0e0"
+#     frame_color = "#4a4e52"
