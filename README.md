@@ -61,4 +61,5 @@ This is a fork of a Rice I really liked so I wanted to customize it for my perso
 - Screenshots save to `~/Pictures/screenshot_<timestamp>.png` — make sure
   `~/Pictures` exists.
 - Distro this was built/tested on: Fedora Sway Spin (official).
-- You may want to use the install script but if you don't understand it I recommend not using it
+- I used AI in a lot of these files
+- Anyone is free to redistribute, modify, and monetize this project
