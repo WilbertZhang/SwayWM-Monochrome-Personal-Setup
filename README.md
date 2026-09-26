@@ -8,8 +8,8 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - sway
 - waybar
 - wofi
-### Terminal Visuals
 - gtklock (lock screen, styled to match the rest of the rice)
+### Terminal Visuals
 - fastfetch
 - cava
 - Cmatrix (its color is set only via the CLI flag in the exec line (`-C white`); it doesn't accept hex colors)
