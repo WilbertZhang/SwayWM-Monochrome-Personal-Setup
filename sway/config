@@ -100,8 +100,6 @@ bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
 # --- Mouse Bindings (The "Invisible" part) ---
 # Permite mover ventanas flotantes con Mod+Click Izquierdo
 # Permite redimensionar ventanas flotantes con Mod+Click Derecho
-bindsym --whole-window $mod+button1 floating_modifier
-bindsym --whole-window $mod+button3 floating_modifier
 
 # --- Gestion de Sesion ---
 bindsym $mod+Shift+c reload
