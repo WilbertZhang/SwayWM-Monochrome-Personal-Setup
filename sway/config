@@ -11,10 +11,10 @@ set $menu wofi --show drun
 
 # --- Estetica (Esquema de colores basado en la imagen) ---
 # class                 border  backgr. text    indicator child_border
-client.focused          #4a4e52 #4a4e52 #4a4e52 #4a4e52   #4a4e52
-client.focused_inactive #4a4e52 #4a4e52 #4a4e52 #4a4e52   #4a4e52
-client.unfocused        #1a1b26 #1a1b26 #1a1b26 #1a1b26   #1a1b26
-client.urgent           #f7768e #f7768e #f7768e #f7768e   #f7768e
+client.focused          #4a4e52 #4a4e52 #ffffff #4a4e52   #4a4e52
+client.focused_inactive #4a4e52 #4a4e52 #cfc9c2 #4a4e52   #4a4e52
+client.unfocused        #1c1c1c #1c1c1c #949494 #1c1c1c   #1c1c1c
+client.urgent           #f7768e #f7768e #000000 #f7768e   #f7768e
 
 output * bg /home/YOURUSER/Downloads/midnight.jpg fill
 font pango:JetBrainsMono Nerd Font 10
