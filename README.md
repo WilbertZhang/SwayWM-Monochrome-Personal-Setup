@@ -61,3 +61,4 @@ This is just another of the fun repos i made for SwayWM, hope you enjoy it.
 - Screenshots save to `~/Pictures/screenshot_<timestamp>.png` — make sure
   `~/Pictures` exists.
 - Distro this was built/tested on: Fedora Sway Spin (official).
+- You may want to use the install script but if you don't understand it I recommend not using it
