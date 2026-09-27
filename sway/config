@@ -16,7 +16,7 @@ client.focused_inactive #4a4e52 #4a4e52 #cfc9c2 #4a4e52   #4a4e52
 client.unfocused        #1c1c1c #1c1c1c #949494 #1c1c1c   #1c1c1c
 client.urgent           #f7768e #f7768e #000000 #f7768e   #f7768e
 
-output * bg /home/YOURUSER/Downloads/midnight.jpg fill
+output * bg ~/Pictures/midnight.jpg
 font pango:JetBrainsMono Nerd Font 10
 floating_modifier $mod normal
 default_border pixel 2
