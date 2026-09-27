@@ -11,27 +11,14 @@
     "modules-right": ["cpu", "memory", "network", "bluetooth", "power-profiles-daemon", "pulseaudio", "battery", "tray"],
 
     "custom/launcher": {
-        "format": "  ",
+        "format": "Apps",
         "on-click": "wofi --show drun",
         "tooltip": false
     },
     "sway/workspaces": {
         "active-only": false,
         "all-outputs": true,
-        "format": "{icon}",
-        "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "5",
-            "6": "6",
-            "7": "7",
-            "8": "8",
-            "9": "9",
-            "10": "10",
-            "default": ""
-        }
+        "format": "{name}",
     },
     "clock": {
         "format": "  {:%H:%M}",
@@ -55,7 +42,7 @@
         "on-click": "blueman-manager"
     },
     "power-profiles-daemon": {
-        "format": "{icon}",
+        "format": "{profile}",
         "tooltip-format": "Profile: {profile}",
         "format-icons": {
             "default": "",
