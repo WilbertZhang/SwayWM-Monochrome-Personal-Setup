@@ -45,12 +45,6 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - cmatrix — has no config file of its own; its look comes entirely from the
   `-C white` flag used in `sway/autostart-monitors-snippet.conf`
 
-### Optional / manual, not confirmed packaged anywhere
-- "Future-dark-cursors" cursor theme, referenced in `sway/config`'s `seat` line.
-  I have not verified this is available in any repo. If you don't have it,
-  either install it manually from wherever you sourced it originally, or
-  delete that `seat` line to use your system's default cursor theme.
-
 ## Things you MUST edit before first use
 - `sway/config`: the `output * bg ...` line hardcodes
   `/home/YOURUSER/Downloads/midnight.jpg`. Move `midnight.jpg` (included in
