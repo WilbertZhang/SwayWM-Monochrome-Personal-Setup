@@ -76,7 +76,7 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 5. Append `shell/bashrc-fastfetch-snippet.sh` (or `shell/zshrc-fastfetch-snippet.sh`
    if you use zsh) to your shell rc file, so fastfetch prints on every new
    interactive shell/Alacritty window.
-6. Reload Sway: `swaymsg reload`, or log out and back in.
+6. Log out and back in.
 
 ## Notes
 - Screenshots save to `~/Pictures/screenshot_<timestamp>.png` — make sure
