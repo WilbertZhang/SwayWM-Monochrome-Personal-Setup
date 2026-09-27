@@ -25,6 +25,7 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - dunst
 - gtklock (lock screen, styled to match the rest of the rice)
 - JetBrainsMono Nerd Font
+- Bibata-Modern-Classic
 
 ### Required for keybinds/modules already in these configs
 - swayidle — idle handling / auto-lock (see `sway/sway-idle-lock-snippet.conf`)
@@ -33,7 +34,7 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - grim + slurp — screenshot bind (`$mod+Shift+S`)
 - brightnessctl — brightness keys
 - wireplumber (provides `wpctl`) — volume keys
-- NetworkManager (provides `nm-connection-editor`) — waybar network module click
+- NetworkManagerApplet (provides `nm-connection-editor`) — waybar network module click
 - blueman — waybar bluetooth module click
 - power-profiles-daemon — waybar power-profile module
 
@@ -113,3 +114,4 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - Install Wireplumber `sudo dnf install wireplumber`
 - Install Blueman `sudo dnf install blueman`
 - Install Power-profiles-daemon `sudo dnf install power-profiles-daemon`
+- Install Bibata-Modern-Classic `sudo dnf install bibata-cursor-themes`
