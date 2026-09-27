@@ -114,4 +114,4 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - Install Wireplumber `sudo dnf install wireplumber`
 - Install Blueman `sudo dnf install blueman`
 - Install Power-profiles-daemon `sudo dnf install power-profiles-daemon`
-- Install Bibata-Modern-Classic `sudo dnf install bibata-cursor-themes`
+- Install Bibata-Modern-Classic `sudo dnf copr enable peterwu/rendezvous` `sudo dnf install bibata-cursor-themes`
