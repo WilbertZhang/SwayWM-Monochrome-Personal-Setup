@@ -2,6 +2,6 @@
 # NOT auto-loaded. Append this block by hand to ~/.zshrc
 # Only needed if you use zsh instead of bash — Fedora's default is bash.
 
-if [[ -o interactive ]]; then
+if [[ -o interactive ]] && [[ -z "$FASTFETCH_SHOWN" ]]; then
     fastfetch
 fi
