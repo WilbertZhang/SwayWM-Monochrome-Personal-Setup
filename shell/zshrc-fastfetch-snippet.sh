@@ -3,5 +3,6 @@
 # Only needed if you use zsh instead of bash — Fedora's default is bash.
 
 if [[ -o interactive ]] && [[ -z "$FASTFETCH_SHOWN" ]]; then
+    export FASTFETCH_SHOWN=1
     fastfetch
 fi
