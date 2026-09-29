@@ -5,7 +5,7 @@
 bars = 0
 autosens = 1
 sensitivity = 100
-framerate = 60
+framerate = 30
 
 [input]
 method = pulse
