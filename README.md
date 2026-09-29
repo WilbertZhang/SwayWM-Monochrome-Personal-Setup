@@ -68,8 +68,9 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
    done
    ```
 3. Do the two manual edits listed above.
-4. loaded via include from sway/config; do not paste (If you use your own sway config,
-   add those two include lines to it instead.)
+4. `sway/autostart-monitors-snippet.conf` and `sway/sway-idle-lock-snippet.conf`
+   are loaded via `include` from `sway/config`; do not paste them. If you use
+   your own sway config, add those two include lines to it instead.
 5. Append `shell/bashrc-fastfetch-snippet.sh` (or `shell/zshrc-fastfetch-snippet.sh`
    if you use zsh) to your shell rc file, so fastfetch prints on every new
    interactive shell/Alacritty window.
