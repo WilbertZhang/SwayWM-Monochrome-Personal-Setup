@@ -6,5 +6,7 @@ print_command=false
 insensitive=true
 prompt=Search in the mist...
 columns=1
+allow_images=true
+image_size=32
 
 # --- MESSAGE: Dive into the shadows to find your app. ---
