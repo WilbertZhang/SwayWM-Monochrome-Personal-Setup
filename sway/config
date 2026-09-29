@@ -8,6 +8,7 @@ set $up k
 set $right l
 set $term alacritty
 set $menu wofi --show drun
+include /etc/sway/config.d/*
 
 # --- Estetica (Esquema de colores basado en la imagen) ---
 # class                 border  backgr. text    indicator child_border
@@ -111,9 +112,19 @@ bar {
 }
 
 # "The fog is lifting, but the terminal remains."
-include /etc/sway/config.d/*
 
 ### Screenshot
 bindsym $mod+Shift+S exec grim -g "$(slurp)" $HOME/Pictures/screenshot_$(date +%Y%m%d_%H%M%S).png
 
 seat seat0 xcursor_theme Bibata-Modern-Classic 30
+
+for_window [app_id=".*"] inhibit_idle fullscreen
+for_window [class=".*"]  inhibit_idle fullscreen
+
+input type:touchpad {
+    tap enabled
+    natural_scroll enabled
+    dwt enabled
+}
+
+exec dunst
