@@ -105,7 +105,7 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - Install Cava `sudo dnf install cava`
 - Install Cmatrix `sudo dnf install cmatrix`
 - Install Btop `sudo dnf install btop`
-- Install JetBrainsMono Nerd Font `sudo dnf install nerdfonts`
+- Install JetBrainsMono Nerd Font `sudo dnf install "PLACEHOLDER"`
 - Install Swayidle `sudo dnf install swayidle`
 - Install Grim `sudo dnf install grim`
 - Install Slurp `sudo dnf install slurp`
