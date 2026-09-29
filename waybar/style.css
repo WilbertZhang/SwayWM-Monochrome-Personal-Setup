@@ -44,3 +44,8 @@ window#waybar {
 }
 
 /* --- MESSAGE: Floating above the waves of data. --- */
+
+#mode { background:#000000; color:#ffffff; padding:0 15px; border-radius:12px; border:1px solid #4a4e52; }
+#workspaces button.urgent { background:#f7768e; color:#000000; border-radius:8px; }
+tooltip { background:#000000; border:1px solid #4a4e52; border-radius:8px; }
+tooltip label { color:#ffffff; }
