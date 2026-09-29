@@ -18,7 +18,7 @@
     "sway/workspaces": {
         "active-only": false,
         "all-outputs": true,
-        "format": "{name}",
+        "format": "{name}"
     },
     "clock": {
         "format": "  {:%H:%M}",
@@ -42,7 +42,7 @@
         "on-click": "blueman-manager"
     },
     "power-profiles-daemon": {
-        "format": "{profile}",
+        "format": "{icon} {profile}",
         "tooltip-format": "Profile: {profile}",
         "format-icons": {
             "default": "",
@@ -57,5 +57,3 @@
         "format-icons": ["󰕿", "󰖀", "󰕾"]
     }
 }
-
-// --- MESSAGE: The horizon is dark, but the status is clear. ---
