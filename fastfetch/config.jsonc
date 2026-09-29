@@ -29,27 +29,27 @@
         {
             "type": "kernel",
             "key": "󰒋 Core",
-            "keyColor": "3"
+            "keyColor": "33"
         },
         {
             "type": "uptime",
             "key": "󰔚 Uptime",
-            "keyColor": "3"
+            "keyColor": "33"
         },
         {
             "type": "wm",
             "key": "󱂬 Window Manager",
-            "keyColor": "3"
+            "keyColor": "33"
         },
         {
             "type": "terminal",
             "key": "󰆍 Terminal",
-            "keyColor": "3"
+            "keyColor": "33"
         },
         {
             "type": "memory",
             "key": "󰘚 Memory",
-            "keyColor": "3"
+            "keyColor": "33"
         },
         "break",
         {
