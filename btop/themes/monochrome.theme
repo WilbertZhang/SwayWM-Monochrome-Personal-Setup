@@ -59,3 +59,7 @@ theme[upload_mid]="#acacac"
 theme[upload_end]="#eeeeee"
 
 # --- MESSAGE: Every process, a shade of the same storm. ---
+
+theme[process_start]="#767676"
+theme[process_mid]="#acacac"
+theme[process_end]="#eeeeee"
