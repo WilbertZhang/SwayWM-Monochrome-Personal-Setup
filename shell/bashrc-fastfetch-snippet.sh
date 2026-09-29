@@ -3,6 +3,6 @@
 # (guarded so it does not fire in non-interactive/script shells)
 
 if [[ $- == *i* ]] && [[ -z "$FASTFETCH_SHOWN" ]]; then
-    export FASTFETCH_SHOWN=1
+    FASTFETCH_SHOWN=1
     fastfetch
 fi
