@@ -100,12 +100,16 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - Uninstall rofi `sudo dnf remove rofi`
 - Install Alacritty `sudo dnf install alacritty`
 - Install Wofi `sudo dnf install wofi`
-- Install GTKLock `sudo dnf install gtklock`
+- Install GTKLock `sudo dnf copr enable wef/gtklock` then `sudo dnf install gtklock`
 - Install Fastfetch `sudo dnf install fastfetch`
 - Install Cava `sudo dnf install cava`
 - Install Cmatrix `sudo dnf install cmatrix`
 - Install Btop `sudo dnf install btop`
-- Install JetBrainsMono Nerd Font `sudo dnf install "PLACEHOLDER"`
+
+- Install JetBrainsMono Nerd Font: download the JetBrainsMono archive from the
+    Nerd Fonts project's releases page, extract the .ttf files into
+    ~/.local/share/fonts/, then run `fc-cache -f`
+  
 - Install Swayidle `sudo dnf install swayidle`
 - Install Grim `sudo dnf install grim`
 - Install Slurp `sudo dnf install slurp`
