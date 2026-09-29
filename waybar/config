@@ -21,23 +21,23 @@
         "format": "{name}"
     },
     "clock": {
-        "format": "  {:%H:%M}",
-        "format-alt": "󰃭  {:%A, %B %d}",
+        "format": "\uf017  {:%H:%M}",
+        "format-alt": "\udb80\udced  {:%A, %B %d}",
         "tooltip": false
     },
-    "cpu": { "format": "  {usage}%" },
-    "memory": { "format": "  {}%" },
+    "cpu": { "format": "\uf4bc  {usage}%" },
+    "memory": { "format": "\udb80\udf5b  {}%" },
     "network": {
-        "format-wifi": "  {signalStrength}%",
-        "format-ethernet": "󰈀 Wired",
-        "format-disconnected": "󰤮 Off",
+        "format-wifi": "\udb81\udda9  {signalStrength}%",
+        "format-ethernet": "\udb80\ude00 Wired",
+        "format-disconnected": "\udb82\udd2e Off",
         "tooltip-format": "{ifname}: {ipaddr}",
         "on-click": "nm-connection-editor"
     },
     "bluetooth": {
-        "format": "",
-        "format-disabled": "",
-        "format-connected": " {num_connections}",
+        "format": "\udb80\udcaf",
+        "format-disabled": "\udb80\udcb2",
+        "format-connected": "\udb80\udcb1 {num_connections}",
         "tooltip-format": "{controller_alias}",
         "on-click": "blueman-manager"
     },
@@ -45,15 +45,15 @@
         "format": "{icon} {profile}",
         "tooltip-format": "Profile: {profile}",
         "format-icons": {
-            "default": "",
-            "performance": "",
-            "balanced": "",
-            "power-saver": ""
+            "default": "\udb81\uddd1",
+            "performance": "\udb81\udcc5",
+            "balanced": "\udb81\uddd1",
+            "power-saver": "\udb80\udf2a"
         }
     },
     "pulseaudio": {
         "format": "{icon} {volume}%",
-        "format-muted": "󰝟",
-        "format-icons": ["󰕿", "󰖀", "󰕾"]
+        "format-muted": "\udb81\udf5f",
+        "format-icons": ["\udb81\udd7f", "\udb81\udd80", "\udb81\udd7e"]
     }
 }
