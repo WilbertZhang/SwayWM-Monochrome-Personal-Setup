@@ -128,3 +128,6 @@ input type:touchpad {
 }
 
 exec dunst
+
+include ~/.config/sway/autostart-monitors-snippet.conf
+include ~/.config/sway/sway-idle-lock-snippet.conf
