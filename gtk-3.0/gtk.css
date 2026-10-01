@@ -1,0 +1,27 @@
+/* --- GTK3 monochrome overrides: matches waybar/alacritty/wofi/dunst palette --- */
+/* Repo path: gtk-3.0/gtk.css -> install to: ~/.config/gtk-3.0/gtk.css */
+
+@define-color theme_bg_color #000000;
+@define-color theme_fg_color #e0e0e0;
+@define-color theme_base_color #000000;
+@define-color theme_text_color #e0e0e0;
+@define-color theme_selected_bg_color #4a4e52;
+@define-color theme_selected_fg_color #ffffff;
+@define-color theme_tooltip_bg_color #000000;
+@define-color theme_tooltip_fg_color #ffffff;
+
+@define-color theme_unfocused_bg_color #000000;
+@define-color theme_unfocused_fg_color #949494;
+@define-color theme_unfocused_base_color #000000;
+@define-color theme_unfocused_text_color #949494;
+@define-color theme_unfocused_selected_bg_color #4a4e52;
+@define-color theme_unfocused_selected_fg_color #ffffff;
+
+@define-color borders #4a4e52;
+@define-color unfocused_borders #1c1c1c;
+@define-color insensitive_bg_color #1c1c1c;
+@define-color insensitive_fg_color #767676;
+@define-color insensitive_base_color #000000;
+@define-color error_color #f7768e;
+
+/* --- MESSAGE: Dark windows, same storm. --- */
