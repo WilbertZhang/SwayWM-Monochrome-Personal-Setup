@@ -9,7 +9,7 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - waybar
 - wofi
 - gtklock (lock screen, styled to match the rest of the rice)
-- gtk-3.0 gtk-4.0
+- gtk-3.0 / gtk-4.0 (GTK dark mode, styled to match the rest of the rice)
 ### Terminal Visuals
 - fastfetch
 - cava
@@ -39,6 +39,11 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - blueman — waybar bluetooth module click
 - power-profiles-daemon — waybar power-profile module
 
+### Required for GTK dark mode
+- gsettings (from glib2) + gsettings-desktop-schemas — used by `sway/gtk-theme-snippet.conf`
+- Adwaita-dark GTK theme — the Fedora package name has not been verified;
+  check with `dnf search adwaita`
+
 ### Required for the system-info
 - fastfetch — system info, configured in `fastfetch/config.jsonc`, also
   wired to print on every new shell (see `shell/bashrc-fastfetch-snippet.sh`)
@@ -63,15 +68,21 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
    ```
 2. Copy the dotfiles into `~/.config/`, backing up anything already there:
    ```
-   for dir in alacritty btop cava dunst fastfetch gtklock sway waybar wofi; do
+   for dir in alacritty btop cava dunst fastfetch gtk-3.0 gtk-4.0 gtklock sway waybar wofi; do
        [ -d ~/.config/"$dir" ] && cp -r ~/.config/"$dir" ~/.config/"$dir".bak.$(date +%Y%m%d_%H%M%S)
        cp -r "$dir" ~/.config/
    done
    ```
 3. Do the two manual edits listed above.
-4. `sway/autostart-monitors-snippet.conf` and `sway/sway-idle-lock-snippet.conf`
-   are loaded via `include` from `sway/config`; do not paste them. If you use
-   your own sway config, add those two include lines to it instead.
+4. `sway/autostart-monitors-snippet.conf`, `sway/sway-idle-lock-snippet.conf`
+   and `sway/gtk-theme-snippet.conf` are loaded via `include` from
+   `sway/config`; do not paste them. If you use your own sway config, add
+   those three include lines to it instead:
+   ```
+   include ~/.config/sway/autostart-monitors-snippet.conf
+   include ~/.config/sway/sway-idle-lock-snippet.conf
+   include ~/.config/sway/gtk-theme-snippet.conf
+   ```
 5. Append `shell/bashrc-fastfetch-snippet.sh` (or `shell/zshrc-fastfetch-snippet.sh`
    if you use zsh) to your shell rc file, so fastfetch prints on every new
    interactive shell/Alacritty window.
@@ -90,6 +101,11 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - btop's theme keys were written against the commonly documented format;
   if your installed version rejects any key, compare against
   `/usr/share/btop/themes/default.theme` and adjust.
+- GTK dark mode: `gtk-3.0/` and `gtk-4.0/` hold `settings.ini` and `gtk.css`
+  (monochrome color overrides). `sway/gtk-theme-snippet.conf` sets the
+  GSettings dark-mode keys on every Sway start. The libadwaita color names
+  in `gtk-4.0/gtk.css` may differ between versions; some apps may not
+  recolor fully.
 - Distro this was built/tested on: Fedora Sway Spin (official).
 - I used AI in a lot of these files.
 - Anyone is free to redistribute, modify, and monetize this project.
