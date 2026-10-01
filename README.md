@@ -9,6 +9,7 @@ This is a fork of a Rice I really liked, so I customized it for my personal use.
 - waybar
 - wofi
 - gtklock (lock screen, styled to match the rest of the rice)
+- gtk-3.0 gtk-4.0
 ### Terminal Visuals
 - fastfetch
 - cava
