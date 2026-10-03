@@ -12,7 +12,7 @@ MenuWindow {
     id: root
 
     // ---- settings ----
-    property string wallpaperDir: Quickshell.env("HOME") + "/Pictures/Wallhaven/Future/"
+    property string wallpaperDir: Quickshell.env("HOME") + "/Pictures/Background/"
 
     // ---- geometry (scales with screen height) ----
     readonly property real cardH:      Math.min(height * 0.5, 520)
