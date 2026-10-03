@@ -19,6 +19,7 @@ window#waybar {
 #power-profiles-daemon,
 #pulseaudio,
 #battery,
+#custom-power,
 #tray {
     background: #000000;
     color: #ffffff;
