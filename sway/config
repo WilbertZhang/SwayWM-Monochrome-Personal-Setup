@@ -17,7 +17,6 @@ client.focused_inactive #4a4e52 #4a4e52 #cfc9c2 #4a4e52   #4a4e52
 client.unfocused        #1c1c1c #1c1c1c #949494 #1c1c1c   #1c1c1c
 client.urgent           #f7768e #f7768e #000000 #f7768e   #f7768e
 
-output * bg ~/Pictures/midnight.jpg fill
 font pango:JetBrainsMono Nerd Font 10
 floating_modifier $mod normal
 default_border pixel 2
@@ -128,6 +127,10 @@ input type:touchpad {
 }
 
 exec dunst
+exec qs -c menus -d
+exec sh ~/.config/quickshell/menus/scripts/restore-wallpaper.sh
+bindsym $mod+x exec qs -c menus ipc call power toggle
+bindsym $mod+p exec qs -c menus ipc call wallpaper toggle
 
 include ~/.config/sway/autostart-monitors-snippet.conf
 include ~/.config/sway/sway-idle-lock-snippet.conf
