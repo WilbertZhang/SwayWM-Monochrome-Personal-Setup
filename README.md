@@ -155,6 +155,7 @@ bindsym $mod+p exec qs -c menus ipc call wallpaper toggle
 - I used AI in a lot of these files.
 - Anyone is free to redistribute, modify, and monetize this project.
 - Credits to `shadowofdominance` for the Quickshell Scripts
+- Credits to `Tolepi` for the Original Rice
 
 ## Personal Notes
 - Uninstall Foot Terminal Emulator `sudo dnf remove foot`
