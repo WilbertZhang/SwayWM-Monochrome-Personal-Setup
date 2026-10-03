@@ -8,7 +8,7 @@
     "spacing": 10,
     "modules-left": ["custom/launcher", "sway/workspaces", "sway/mode"],
     "modules-center": ["clock"],
-    "modules-right": ["cpu", "memory", "network", "bluetooth", "power-profiles-daemon", "pulseaudio", "battery", "tray"],
+    "modules-right": ["cpu", "memory", "network", "bluetooth", "power-profiles-daemon", "pulseaudio", "battery", "tray", "custom/power"],
 
     "custom/launcher": {
         "format": "Apps",
@@ -57,4 +57,9 @@
         "format-muted": "\udb81\udf5f",
         "format-icons": ["\udb81\udd7f", "\udb81\udd80", "\udb81\udd7e"]
     }
+    "custom/power": {
+           "format": "\uf011",
+           "tooltip": false,
+           "on-click": "qs -c menus ipc call power toggle"
+       }
 }
