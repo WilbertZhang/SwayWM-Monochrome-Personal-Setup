@@ -154,6 +154,7 @@ bindsym $mod+p exec qs -c menus ipc call wallpaper toggle
   verified on Fedora 44 yet.
 - I used AI in a lot of these files.
 - Anyone is free to redistribute, modify, and monetize this project.
+- Credits to shadowofdominance for the Quickshell Scripts
 
 ## Personal Notes
 - Uninstall Foot Terminal Emulator `sudo dnf remove foot`
