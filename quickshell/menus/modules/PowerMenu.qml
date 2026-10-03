@@ -12,7 +12,7 @@ MenuWindow {
 
     // ---- edit commands here ----
     property var actions: [
-        { icon: "\uf023", label: "Lock",      cmd: ["swaylock", "-f"] },
+        { icon: "\uf023", label: "Lock",      cmd: ["gtklock", "-d"] },
         { icon: "\uf186", label: "Sleep",     cmd: ["systemctl", "suspend"] },
         { icon: "\uf08b", label: "Log out",   cmd: ["swaymsg", "exit"] },
         { icon: "\uf021", label: "Reboot",    cmd: ["systemctl", "reboot"] },
